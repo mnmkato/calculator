@@ -16,15 +16,48 @@ body{
 }
 .keypad{
     font-family: Arial, Helvetica, sans-serif;
-    height: 367px;
-    width: 363px;
+    height: 270px;
+    width: 360px;
     background-color:blanchedalmond;
     display: grid;
     gap: 1px;
     grid-template-columns: 90px 90px 90px 90px;
 }
+.key{
+    background-color:grey;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .screen{
     height: 120px;
     width: 363px;
     background-color:brown;
+}
+.mini_display{
+    height: 50px;
+    width: 363px;
+    background-color:rgb(42, 165, 97);
+    font-size: 18px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    min-width: 40%;
+}
+.main_display{
+    height: 70px;
+    width: 363px;
+    font-size: 36px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    min-width: 40%;
+    background-color:rgb(52, 42, 165);
 }
